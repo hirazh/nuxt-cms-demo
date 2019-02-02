@@ -1,6 +1,5 @@
 <template>
     <div class="blogContainer">
-        <Navbar/>
         <h1>All Blogs</h1>
         <div>
             <p>
@@ -11,13 +10,8 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
-
 export default {
-  
-  components: {
-    Navbar
-  }
+    
 }
 </script>
 

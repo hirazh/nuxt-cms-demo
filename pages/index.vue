@@ -1,6 +1,6 @@
 <template>
   <div class="mainWrapper">
-    <Navbar/>
+    
     <div class="intro">
       <p>Hi im Hiraz..... and this is my personal blog where I'm writing about web development and designing</p>
     </div>
@@ -9,13 +9,8 @@
 
 <script>
 
-import Navbar from '@/components/Navbar.vue'
-
 export default {
   
-  components: {
-    Navbar
-  }
 }
 </script>
 
